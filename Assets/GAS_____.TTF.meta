@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 11d56b7182c7d8d469c2026afc9b22d3
+timeCreated: 1489954985
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gas
+  fontNames:
+  - Gas
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
