@@ -28,49 +28,49 @@ public class PlayerMoveScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetKey("[8]")) { //Player takes [Top] when the key is released
+		if (Input.GetKey("[8]") || Input.GetKey("w")) { //Player takes [Top] when the key is released
 			playerStartX = 5;
 			playerStartY = 1;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[2]")) { //Player takes [Bottom] when the key is released
+		if (Input.GetKey("[2]") || Input.GetKey("x")) { //Player takes [Bottom] when the key is released
 			playerStartX = 5;
 			playerStartY = -1;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[4]")) { //Player takes [Left] when the key is released
+		if (Input.GetKey("[4]") || Input.GetKey("a")) { //Player takes [Left] when the key is released
 			playerStartX = 4;
 			playerStartY = 0;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[6]")) { //Player takes [Right] when the key is released
+		if (Input.GetKey("[6]") || Input.GetKey("d")) { //Player takes [Right] when the key is released
 			playerStartX = 6;
 			playerStartY = 0;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[9]")) { //Player takes [Top Right] when the key is released
+		if (Input.GetKey("[9]") || Input.GetKey("e")) { //Player takes [Top Right] when the key is released
 			playerStartX = 5.75f;
 			playerStartY = .75f;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[7]")) { //Player takes [Top Left] when the key is released
+		if (Input.GetKey("[7]") || Input.GetKey("q")) { //Player takes [Top Left] when the key is released
 			playerStartX = 4.25f;
 			playerStartY = .75f;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[3]")) { //Player takes [Bottom Right] when the key is released
+		if (Input.GetKey("[3]") || Input.GetKey("c")) { //Player takes [Bottom Right] when the key is released
 			playerStartX = 5.75f;
 			playerStartY = -.75f;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
 		}
 
-		if (Input.GetKey("[1]")) { //Player takes [Bottom Left] when the key is released
+		if (Input.GetKey("[1]") || Input.GetKey("z")) { //Player takes [Bottom Left] when the key is released
 			playerStartX = 4.25f;
 			playerStartY = -.75f;
 			transform.position = new Vector3 (playerStartX, playerStartY, 0);	//Sets position of player
