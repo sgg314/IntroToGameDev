@@ -17,7 +17,6 @@ public class TowerBehaviour : MonoBehaviour {
     private float volLowRange = .5f;    //Registers the lowest volume of a sound effect
     private float volHighRange = 1.0f;  //Registers the highest volume of a sound effect
 
-	public CameraShake cameraShake;
 
     private void Awake()
     {
@@ -68,9 +67,6 @@ public class TowerBehaviour : MonoBehaviour {
             if (invincible == false)
             {
                 towerHealth--; 											//Drop the tower's health one stage if it is hit
-
-				cameraShake.shakeDuration = 0.5f;
-
             } else
             {
                 coreAnimator.Play("core_idle");                         //Play idle animation
